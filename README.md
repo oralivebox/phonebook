@@ -17,10 +17,10 @@ This is a simple Phone Book App developed in Laravel and React JS to purform cru
 ## Installation
 - Clone or Download the code
 - Apply permission to folder 755
-- Run Composer Install
-- set Database Crdentials
+- Run composer Install
+- set Database Credentials
 - Run php artisan migrate
-- Point Main Main Dir to phonebook/public
+- Point Root URL Dir to phonebook/public
 
 
 ### Technologies
