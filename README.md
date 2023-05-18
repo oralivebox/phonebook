@@ -14,27 +14,29 @@ This is a simple Phone Book App developed in Laravel and React JS to purform cru
 - [BY ADJETEY DERRICK ](https://github.com/oralivebox/p).
 
 
-## Learning Laravel
+## Installation
+- Clone or Download the code
+- Apply permission to folder 755
+- Run Composer Install
+- set Database Crdentials
+- Run php artisan migrate
+- Point Main Main Dir to phonebook/public
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
 ### Technologies
 
-- **[Laravel](https://vehikl.com/)**
-- **[React JS](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Laravel](#)**
+- **[MYSQL](#)**
+- **[PHP](#)**
+- **[React JS](#)**
+- **[Vitz](#)**
+- **[Tailwind Css](#)**
 
+## NOTE
+This script should be used for leaning purposes only. Should you intend to use this script for any purpose ensure you add an Authentication system before usages.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Phone Book App is now open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
