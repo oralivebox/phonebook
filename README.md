@@ -11,7 +11,7 @@
 
 This is a simple Phone Book App developed in Laravel and React JS to purform crud opereation to maintain a simple phone book.
 
-- [BY ADJETEY DERRICK ](https://github.com/oralivebox/p).
+- [BY ADJETEY DERRICK oradasoft@gmail.com](https://github.com/oralivebox/p).
 
 
 ## Installation
