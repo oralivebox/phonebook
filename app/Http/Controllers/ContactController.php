@@ -32,7 +32,7 @@ class ContactController extends Controller
         $this->validate($request, [
             "first_name"           =>      "required|min:3|max:100",
             "last_name"            =>      "required|min:3|max:100",
-            'phone_number'         =>      'required|numeric|digits:12|starts_with:233',
+            'phone_number'         =>      'required|numeric|digits:12|starts_with:233|unique:contacts',
         ]);
 
         $contact = new Contact;
@@ -60,6 +60,12 @@ class ContactController extends Controller
         ]);
 
         $contact = Contact::where("id", $id)->first();
+
+        if ($request->phone_number != $contact->phone_number) {
+            $request->validate([
+             'phone_number'         =>      'unique:contacts'
+            ]);
+         }
 
         $contact->first_name        =  $request->first_name;
         $contact->last_name         =  $request->last_name;
