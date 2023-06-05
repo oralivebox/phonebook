@@ -8,6 +8,10 @@ use App\Models\Contact;
 class ContactController extends Controller
 {
     public function index() {
+        
+        //THIS IA
+        
+        if
 
 
         if(request()->has('search')) { 
